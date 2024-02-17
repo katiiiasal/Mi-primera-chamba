@@ -1,0 +1,22 @@
+// to initializate a local repository/project in Git
+git init
+
+// to check status or any modifications when there's a modification stands in red green means was add
+git status
+
+// to added on the staging area (clon)
+git add hola.txt
+git add . (to send all the ones that were changed)
+
+// to linked the local repo with the with the one that will be uploaded (GitHub)
+git remote add origin git@github.com:katiiiasal/Mi-primera-chamba.git 
+
+// to prepare the files on the staging area that will be uploaded to GitHub
+git commit -m "message"
+
+//
+git push -u origin main
+
+
+
+ 
